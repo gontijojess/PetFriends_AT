@@ -10,9 +10,6 @@ public class EstadoPedidoMudou implements Serializable {
     private PedidoStatus estado;
     private Date momento;
 
-    public EstadoPedidoMudou() {
-    }
-
     public EstadoPedidoMudou(Long idPedido, PedidoStatus estado) {
         this.idPedido = idPedido;
         this.estado = estado;

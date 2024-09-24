@@ -1,8 +1,6 @@
 package infnet.gontijo.pedidos_petfriends;
 import infnet.gontijo.pedidos_petfriends.pedidos.domain.Pedido;
 import infnet.gontijo.pedidos_petfriends.pedidos.infra.service.PedidoService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -11,8 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class PedidosPetFriendsApplication implements CommandLineRunner {
-
-    private static final Logger LOG = LoggerFactory.getLogger(PedidosPetFriendsApplication.class);
 
     @Autowired
     private PedidoService pedidoService;
